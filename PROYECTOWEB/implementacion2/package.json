@@ -1,0 +1,12 @@
+{
+  "name": "implementacion2",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
