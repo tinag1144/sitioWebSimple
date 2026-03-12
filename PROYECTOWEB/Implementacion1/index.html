@@ -9,11 +9,18 @@
 
 <body>
 
-<input type="text" id="texto" placeholder="Escriba algo">
+<input 
+type="text" 
+id="texto" 
+placeholder="Escriba algo y presione enter"
+onkeypress="mostrarTexto(event)"
+>
 
 <br><br>
 
-<button id="boton">Cambiar colores</button>
+<button onclick="cambiarColor()">
+Cambiar colores
+</button>
 
 <script src="script.js"></script>
 
