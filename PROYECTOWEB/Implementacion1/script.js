@@ -1,7 +1,19 @@
 // variable para guardar el estado de los colores
 let estado = 0
 
+//funcipn para mostrar el texto
+const mostrarTexto = (event) => {
 
+    if(event.key === "Enter"){
+
+        // traigo el texto que ingresó el usuario
+        let texto = document.getElementById("texto").value
+
+        // se muestra en un alert
+        alert(texto)
+    }
+
+}
 
 // función para cambiar los colores de la pagina
 const cambiarColor = () => {
